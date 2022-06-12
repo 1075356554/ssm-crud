@@ -32,6 +32,7 @@ public class DeptController {
         //查出的所有部门信息
         List<Dept> list = deptService.getDepts();
         System.out.println("hello1");
+        System.out.println("hello world");
         return Msg.success().add("depts",list);
     }
 }
