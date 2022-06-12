@@ -31,6 +31,7 @@ public class DeptController {
     public Msg getDepts(){
         //查出的所有部门信息
         List<Dept> list = deptService.getDepts();
+        System.out.println("hello");
         return Msg.success().add("depts",list);
     }
 }
